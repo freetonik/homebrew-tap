@@ -1,4 +1,4 @@
-class Delta < Formula
+class Underblog < Formula
   desc "Extremely simple static blog generator "
   homepage "https://github.com/freetonik/underblog"
   url "https://github.com/freetonik/underblog/releases/download/v0.1.2/underblog_0.1.2_darwin_amd64.tar.gz"
