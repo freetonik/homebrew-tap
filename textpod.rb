@@ -1,16 +1,16 @@
 class Textpod < Formula
   desc "Local, web-based notetaking app inspired by 'One Big Text File'."
   homepage "https://github.com/freetonik/textpod"
-  version "0.0.2"
+  version "0.1.2"
   license "GPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Codexpanse/textpod-citest/releases/download/0.14/textpod-macos-x86_64.tar.gz"
-      sha256 "eae5fd6dff55cffa45d28f36ad311c7fc6346527dfd0d998c0c48c9b75628bf4"
+      url "https://github.com/freetonik/textpod/releases/download/0.1.2/textpod-macos-x86_64.tar.gz"
+      sha256 "8f7336760f5bd42243ea9cc75afc15e157f318d5ab6dcf016d37d8c9ecc5065a"
     else
-      url "https://github.com/Codexpanse/textpod-citest/releases/download/0.14/textpod-macos-aarch64.tar.gz"
-      sha256 "498b26493f47c1d0faa4c21161655919ff4d9fe2c9d6424df1f6235c6fbdc6f3"
+      url "https://github.com/freetonik/textpod/releases/download/0.1.2/textpod-macos-aarch64.tar.gz"
+      sha256 "44f8d9c7f3ff1a90463d394ab68bd14fdd434536f451023ed679198b828ce2ee"
     end
   end
 
