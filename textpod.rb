@@ -7,10 +7,10 @@ class Textpod < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/freetonik/textpod/releases/download/0.1.2/textpod-macos-x86_64.tar.gz"
-      sha256 "8f7336760f5bd42243ea9cc75afc15e157f318d5ab6dcf016d37d8c9ecc5065a"
+      sha256 "238e84cbb853c60b7dbac499628c7b6ea434e96fe21a31e34702f4900a819312"
     else
       url "https://github.com/freetonik/textpod/releases/download/0.1.2/textpod-macos-aarch64.tar.gz"
-      sha256 "44f8d9c7f3ff1a90463d394ab68bd14fdd434536f451023ed679198b828ce2ee"
+      sha256 "b7d80598791c236cdf5d0791da77e5ca2c2e9f8c7cb896c3bf74b68a1ddd1d94"
     end
   end
 
