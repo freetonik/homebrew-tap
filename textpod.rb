@@ -1,4 +1,4 @@
-class textpod < Formula
+class Textpod < Formula
   desc "Local, web-based notetaking app inspired by 'One Big Text File'."
   homepage "https://github.com/freetonik/textpod"
   version "0.0.2"
